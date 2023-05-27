@@ -1,0 +1,146 @@
+.cw-container main {
+  padding: 8rem 2rem;
+}
+
+.cw-title {
+  font-size: var(--fs-display-medium);
+  font-weight: var(--fw-semibold);
+}
+
+.cw-text {
+  margin-top: 1rem;
+  color: var(--clr-interface-2);
+}
+
+.cw-even-columns {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sw-coin-base-wrapper {
+  margin-top: 2rem;
+  border: 1px solid var(--clr-border);
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  width: max-content;
+  cursor: pointer;
+}
+
+.sw-coin-base-wrapper:hover {
+  border: 1px solid var(--clr-strawberry);
+}
+
+.cw-ether-wallet-wrapper {
+  margin-top: 2rem;
+  border: 1px solid var(--clr-border);
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  width: max-content;
+  cursor: pointer;
+}
+
+.cw-ether-wallet-wrapper:hover {
+  border: 1px solid blue;
+}
+
+.cw-wallet-connect-wrapper {
+  margin-top: 2rem;
+  margin-top: 2rem;
+  border: 1px solid var(--clr-border);
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  width: max-content;
+  cursor: pointer;
+}
+
+.cw-wallet-connect-wrapper:hover {
+  border: 1px solid var(--clr-strawberry);
+}
+
+.cw-coin-base-img-wrapper {
+  border-radius: 5rem;
+  background-image: var(--red-gradient);
+  width: max-content;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  cursor: pointer;
+}
+
+.cw-credit-card-icon {
+  width: 1.5rem;
+  height: 1.5rem;
+  object-fit: cover;
+}
+
+.cw-ether-wallet-img-wrapper {
+  border-radius: 5rem;
+  background-image: var(--blue-gradient);
+  width: max-content;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  cursor: pointer;
+}
+
+.cw-meta-mask-icon {
+  width: 1.5rem;
+  height: 1.5rem;
+  object-fit: cover;
+}
+
+.cw-wallet-connect-img-wrapper {
+  border-radius: 5rem;
+  background-image: var(--red-gradient);
+  width: max-content;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  cursor: pointer;
+}
+
+.cw-shopping-bag-icon {
+  width: 1.5rem;
+  height: 1.5rem;
+  object-fit: cover;
+}
+
+.cw-column-2 {
+  margin-top: 3rem;
+}
+
+@media(min-width: 70em) {
+  .cw-even-columns {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+
+  .sw-coin-base-wrapper{
+    width: 100%;
+  }
+
+  .cw-ether-wallet-wrapper {
+    width: 100%;
+  }
+
+  .cw-wallet-connect-wrapper{
+    width: 100%;
+  }
+
+  .cw-column-2 {
+    margin: 0;
+  }
+}
