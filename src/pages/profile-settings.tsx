@@ -8,7 +8,7 @@ import { BsQuestionCircle } from "react-icons/bs";
 import { WiDayShowers } from "react-icons/wi";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
-import { Outlet, Link, NavLink } from "react-router-dom";
+import { Outlet, NavLink } from "react-router-dom";
 
 type Props = {};
 

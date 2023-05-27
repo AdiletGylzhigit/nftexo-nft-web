@@ -6,7 +6,6 @@ import {
   AiOutlineArrowLeft,
 } from "react-icons/ai";
 import SellerImg from "../assets/images/user-avatar.jpg";
-import Ethereum from "../assets/images/ethereum.jpg";
 import { BiSearch } from "react-icons/bi";
 import { Link } from "react-router-dom";
 

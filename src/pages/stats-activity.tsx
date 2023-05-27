@@ -5,7 +5,6 @@ import Art from "../assets/images/art.jpg";
 import { AiOutlineArrowLeft, AiOutlineArrowRight } from "react-icons/ai";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
-import { Link } from "react-router-dom";
 
 type Props = {};
 
