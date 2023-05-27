@@ -1,8 +1,8 @@
 import "../styles/profile.css";
 import UserAvatar from "../assets/images/user-avatar.jpg";
 import Web from "../assets/icons/web.png";
-import Share from "../assets/icons/Share.png";
-import Settings from "../assets/icons/More.png";
+import Share from "../assets/icons/share.png";
+import Settings from "../assets/icons/more.png";
 import { RxCopy } from "react-icons/rx";
 import { BiSearch } from "react-icons/bi";
 import Sidebar from "../components/Sidebar";
