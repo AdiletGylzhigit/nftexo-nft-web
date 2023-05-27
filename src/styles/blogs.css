@@ -37,8 +37,8 @@
 }
 
 .bi-container{
+  margin: 0rem;
   margin-top: 5rem;
-  margin: 2rem;
   border: 1px solid var(--clr-border);
 }
 
@@ -81,6 +81,7 @@
 }
 
 .blogs-pagination{
+  width: max-content;
   margin-top: 2rem;
   display: flex;
   justify-content: flex-end;
@@ -90,7 +91,7 @@
 
 .blogs-pagination span{
   background-color: var(--clr-interface-4);
-  padding: 1rem 1.5rem;
+  padding: .5rem 1rem;
   cursor: pointer;
 }
 
@@ -100,7 +101,7 @@
 }
 
 .blogs-pagination-btn{
-  padding: 1rem 2rem;
+  padding: .5rem 2rem;
   border: 0;
   background-image: var(--blue-gradient);
   color: var(--clr-white);
