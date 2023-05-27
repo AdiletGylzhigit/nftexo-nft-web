@@ -1,6 +1,6 @@
 import "../styles/profile.css";
 import UserAvatar from "../assets/images/user-avatar.jpg";
-import Web from "../assets/icons/Web.png";
+import Web from "../assets/icons/web.png";
 import Share from "../assets/icons/Share.png";
 import Settings from "../assets/icons/More.png";
 import { RxCopy } from "react-icons/rx";
@@ -39,7 +39,11 @@ const ProfileScreen = ({}: Props) => {
             </Link>
             <div>
               <label htmlFor="share">
-                <img src={Share} alt="share-icon" className="profile-share-icon" />
+                <img
+                  src={Share}
+                  alt="share-icon"
+                  className="profile-share-icon"
+                />
               </label>
               <input id="share" type="file" className="profile-share-input" />
               <Link to="/profile-settings">
